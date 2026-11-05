@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" fill="none">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9333ea" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+    <linearGradient id="gearGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#7e22ce" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer subtle glow circle -->
+  <circle cx="50" cy="50" r="46" fill="#140c24" stroke="#7c3aed" stroke-width="2.5" />
+  
+  <!-- Engineering Gear (Behind cap) -->
+  <g transform="translate(50,56) scale(0.65)">
+    <!-- Gear teeth -->
+    <path d="M-6 -38 L6 -38 L8 -30 L18 -26 L24 -33 L33 -24 L26 -18 L30 -8 L38 -6 L38 6 L30 8 L26 18 L33 24 L24 33 L18 26 L8 30 L6 38 L-6 38 L-8 30 L-18 26 L-24 33 L-33 24 L-26 18 L-30 8 L-38 6 L-38 -6 L-30 -8 L-26 -18 L-33 -24 L-24 -33 L-18 -26 L-8 -30 Z" 
+          fill="url(#gearGrad)" opacity="0.85" />
+    <!-- Gear center hole -->
+    <circle cx="0" cy="0" r="14" fill="#140c24" />
+    <!-- Subtle inner circuit dots -->
+    <circle cx="0" cy="0" r="6" fill="#a855f7" />
+  </g>
+  
+  <!-- Graduation Cap (Mortarboard) -->
+  <!-- Cap Diamond Top -->
+  <polygon points="50,22 82,34 50,46 18,34" fill="url(#grad1)" stroke="#f5f3ff" stroke-width="1.8" stroke-linejoin="round"/>
+  
+  <!-- Cap Skullcap/Base -->
+  <path d="M30 41.5 V52 C30 58, 70 58, 70 52 V41.5 C64 44.5, 56 46, 50 46 C44 46, 36 44.5, 30 41.5 Z" fill="#6b21a8" stroke="#a855f7" stroke-width="1.2" />
+  
+  <!-- Cap Button -->
+  <circle cx="50" cy="34" r="3.2" fill="#faf5ff" stroke="#7e22ce" stroke-width="1" />
+  
+  <!-- Tassel ribbon -->
+  <path d="M50 34 Q66 38 68 50" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="68" cy="52" r="2.5" fill="#f59e0b" />
+</svg>
